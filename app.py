@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-pipeline = joblib.load("diabetes_pipeline.pkl")
+pipeline = joblib.load("model/diabetes_pipeline.pkl")
 st.set_page_config(page_title="Diabetes Prediction",page_icon="🩺")
 
 
